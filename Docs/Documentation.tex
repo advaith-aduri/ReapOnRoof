@@ -1,0 +1,65 @@
+\documentclass[a4paper,10pt]{book}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{eso-pic}
+\usepackage{anyfontsize}
+\usepackage{multicol}
+\usepackage{xcolor}
+\definecolor{title}{RGB}{32,178,170}
+
+\begin{document}
+% Title Page
+\begin{titlepage}
+    \AddToShipoutPicture*{
+    \AtPageUpperLeft{%
+    \raisebox{-\height}{%
+    \includegraphics[width=\paperwidth,keepaspectratio]{./img/Title/title.jpg}
+    }
+    }
+    };
+    \vspace{7cm}
+    \begin{center}
+        {
+        \fontsize{50}{60}\selectfont \textbf{ReapOnRoof}
+        }
+    \end{center}
+    \begin{center}
+        {
+        \centering
+        \fontsize{30}{50}\selectfont Electronic System Design Documentation
+        }
+    \end{center}
+    
+    \vspace{50px}
+    
+    \begin{center}
+        \fontsize{30}{40} \textbf{Team}
+    \end{center}
+    
+    \begin{center}
+        \begin{multicols}{2}
+            {
+                \textbf{
+                \fontsize{11}{13}\selectfont
+                Aduri Sri Sambasiva Advaith\\
+                email: evd18i002@iiitdm.ac.in\\
+                phone: +91 85007 07368 \\
+                \columnbreak
+                Ajmeera Girish Kumar\\
+                email: evd18i003@iiitdm.ac.in\\
+                phone: +91 95731 02276
+                }
+            }
+        \end{multicols}
+
+    \end{center}
+
+
+    
+    \vspace{25px}
+\end{titlepage}
+
+
+\end{document}
